@@ -8,12 +8,19 @@ use Illuminate\Http\Request;
 class PortafolioController extends Controller
 {
 
+
+
+
     public function index()
     {
         $portafolios = Portafolio::all();
 
         return view('portafolio.index',compact('portafolios'));
     }
+
+
+
+
 
 
     public function create()

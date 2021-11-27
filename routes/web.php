@@ -9,10 +9,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Auth::routes();
 
 
 Route::get('portafolio',[PortafolioController::class,'index'])->name('portafolio');
+
+
 
 Route::get('portafolio/create',[PortafolioController::class,'create'])->name('create');
 

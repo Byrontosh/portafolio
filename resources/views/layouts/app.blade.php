@@ -23,8 +23,19 @@
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/942/942748.png" type="image/x-icon">
 
 </head>
+
+
+
+
+
+
 <body>
     <div id="app">
+
+
+
+        {{-- ESTRUCTURA DEL NAV --}}
+
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
@@ -89,7 +100,13 @@
 
 
 
+
+
+
+        {{--ESTRUCTURA DEL CONTENIDO DINÁMICO --}}
+
         <main class="py-4">
+
 
             @yield('content')
 

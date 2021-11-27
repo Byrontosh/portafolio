@@ -1,6 +1,9 @@
+
 @extends('layouts.app')
 
 @section('content')
+
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
@@ -26,5 +29,10 @@
     @empty
     <p>No Existen proyectos</p>
     @endforelse
+</div>
 
-    @endsection
+@endsection
+
+
+
+
